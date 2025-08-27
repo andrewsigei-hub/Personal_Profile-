@@ -3,13 +3,13 @@
   src: url(./Fonts/DMSerifText-Regular.ttf);
 }
 
-
 h1 {
   text-align: center;
 }
-img {border-radius: 15px;
-display: block;
-margin: 0
+img {
+  border-radius: 15px;
+  display: block;
+  margin: 0;
 }
 .profile img {
   border-radius: 50%;
@@ -24,11 +24,18 @@ body {
 }
 
 .profile {
-  max-width: 200px;
+  max-width: 500px;
   margin: 0 auto;
   text-align: center;
 }
 
 body {
-  background-color:whitesmoke ;
+  background-color: gold;
+}
+
+.profile {
+  border: 5px solid #000;
+  padding: 200px;
+  border-radius: 5px;
+  display: inline-block;
 }
